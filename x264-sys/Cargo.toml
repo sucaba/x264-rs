@@ -4,14 +4,14 @@ version = "0.2.2"
 authors = ["Luca Barbato <lu_zero@gentoo.org>"]
 license = "MIT"
 description = "FFI bindings to x264"
-repository = "https://github.com/rust-av/x264-rs"
+repository = "https://github.com/sucaba/x264-rs"
 edition = "2018"
 
-[build-dependencies]
-bindgen = "0.70.1"
-system-deps = "7.0.3"
+[features]
+default = []
 
-[package.metadata.system-deps]
-x264 = "0.147"
+[build-dependencies]
+bindgen = "0.71.*"
+autotools = "0.2.*"
 
 [dependencies]

@@ -6,7 +6,7 @@ license = "MIT"
 description = "x264 bindings"
 repository = "https://github.com/rust-av/x264-rs"
 readme = "README.md"
-keywords = ["x264","h264"]
+keywords = ["x264", "h264"]
 edition = "2018"
 
 [dependencies]
@@ -20,4 +20,4 @@ name = "encode"
 path = "examples/encode.rs"
 
 [dev-dependencies]
-regex ="1.3"
+regex = "1.3"

@@ -1,2 +1,3 @@
 #include <inttypes.h>
-#include <x264.h>
+
+#include "../../deps/x264/x264.h"
